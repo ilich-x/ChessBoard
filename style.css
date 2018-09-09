@@ -1,0 +1,41 @@
+.board {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.cell {
+  float: left;
+}
+
+.cell-dark {
+  background: #a77d16;
+}
+
+.cell-light {
+  background: #f5deb3;
+}
+
+.title {
+  position: absolute;
+  font-size: 18px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.title-left {
+  color: #634343;
+  text-align: right;
+}
+
+.title-right {
+  color: #634343;
+  text-align: left;
+}
+
+.figure {
+  position: absolute;
+  text-align: center;
+  background-color: transparent;
+}
